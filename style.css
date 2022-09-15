@@ -1,22 +1,25 @@
 *{
 	/*font-family: 'Bebas Neue', cursive;*/
 	font-family: 'Montserrat', sans-serif;
-	background-color: #0E0E35;
+
 }
 
+#particles-js {
+	background-color: #080819;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+}
 
-/*body {
-	background-image: url(background.jpg);
-	min-height: 100vh;
-	background-position: center center;
-	background-attachment: fixed;
-	background-size: cover;
-}*/
+#princ {
+	position: relative;
+	z-index: 2;
+}
+
 /*links config*/
 
 	 #links ul{
-	 	position: relative;
-	 	z-index: 2;
 		list-style-type: none;
 	  	margin: 0;
 	  	padding: 0;
@@ -41,8 +44,8 @@
 	#links ul li a:hover{
 		transition: all 1s;
 		background-color: white;
-		color: #22227D;
-		text-shadow: 0 0 5px #22227D;
+		color: #39A860;
+		text-shadow: 0 0 5px #24CC5F;
 		text-decoration: none;
 		
 		
@@ -62,12 +65,11 @@
 	position: relative;
 	margin-left: 20%;
 	margin-top: 5%;
-	width: 10em;
+	width: 8em;
+	z-index: 2;
 
 }
 .title div {
-	position: relative;
-	z-index: 2;
 	display: inline;
 	line-height: 1.2em;
 	color: white;
@@ -78,8 +80,6 @@
 
 
 .title div:hover{
-	position: relative;
-	z-index: 2;
 	font-size: 210px;
 	text-shadow: 0 0 15px white;
 	opacity: 1.0;
@@ -87,40 +87,14 @@
 }
 
 #ramiro{
-	position: relative;
-	z-index: 2;
-	color: #2E2E75;
+	color: #36B061;
 	
 }
  
 #ramiro:hover{
-	position: relative;
-	z-index: 2;
-	text-shadow: 0 0 15px #4141A0;
+	text-shadow: 0 0 15px #43D476;
 }
 
 
-#princ{
-	min-height: 100vh;
-	position: relative;
-	z-index: 2;
-}
-video {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
 
-.capa{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #1c1c1d ;
-	opacity: 0.5;
-	mix-blend-mode: overlay;
-}
+
