@@ -1,0 +1,125 @@
+*{
+	/*font-family: 'Bebas Neue', cursive;*/
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+/*body {
+	background-image: url(background.jpg);
+	min-height: 100vh;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}*/
+/*links config*/
+
+	 #links ul{
+	 	position: relative;
+	 	z-index: 2;
+		list-style-type: none;
+	  	margin: 0;
+	  	padding: 0;
+	  	overflow: hidden;
+	  	height: 50px;
+	}
+
+	#links ul li{
+		float: right;
+	}
+	#links ul li a{
+		display: block;
+		width: 150px;
+	  	color: lightgray;
+	  	text-decoration: none;
+	  	text-align: center;
+	  	font-size: 20px;
+	  	padding: 10px 16px;
+	  	transition: all 1s;
+
+	}
+	#links ul li a:hover{
+		transition: all 1s;
+		background-color: white;
+		color: #22227D;
+		text-shadow: 0 0 5px #22227D;
+		text-decoration: none;
+		
+		
+	}
+/*links config end*/
+
+/*lateral navbar config*/
+	
+
+
+
+
+
+/*lateral navbar config end*/
+
+.title{
+	position: relative;
+	margin-left: 20%;
+	margin-top: 5%;
+	width: 10em;
+
+}
+.title div {
+	position: relative;
+	z-index: 2;
+	display: inline;
+	line-height: 1.2em;
+	color: white;
+	font-size: 200px;
+	text-align: left;
+	transition: all 1s;
+}
+
+
+.title div:hover{
+	position: relative;
+	z-index: 2;
+	font-size: 210px;
+	text-shadow: 0 0 15px white;
+	opacity: 1.0;
+	transition: all 0.7s, text-shadow 0.1s;
+}
+
+#ramiro{
+	position: relative;
+	z-index: 2;
+	color: #2E2E75;
+	
+}
+ 
+#ramiro:hover{
+	position: relative;
+	z-index: 2;
+	text-shadow: 0 0 15px #4141A0;
+}
+
+
+#princ{
+	min-height: 100vh;
+	position: relative;
+	z-index: 2;
+}
+video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.capa{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #1c1c1d ;
+	opacity: 0.5;
+	mix-blend-mode: overlay;
+}
