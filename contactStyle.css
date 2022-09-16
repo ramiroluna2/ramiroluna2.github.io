@@ -1,0 +1,81 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+a:link{
+	text-decoration: none;
+}
+#particles-js {
+	background-color: #080819;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+}
+
+#goback{
+	position: relative;	
+	padding-top: 5vh;
+	padding-left: 80%;
+
+}
+.bio{
+	position: relative;
+	z-index: 2;
+}
+.bio__text__title{
+	margin: 0px;
+	color: white;
+	text-align: center;
+	padding-top: 10vh;
+	font-size: 700%;
+}
+
+
+#bio__links__container{
+	position: relative;
+	color: white;
+	padding-left: 15%;
+	padding-right: 15%;
+	max-height: 50vh;
+	
+}
+
+#bio__links__container div{
+	position: relative;
+	display: inline-block;
+	font-size: 3vw;
+	max-width: 33vw;
+	transition: all	0.5s;
+	min-height: 100%;
+}
+
+b{
+	color: #36B061;
+}
+a{
+	color: white;
+	transition: all	0.5s;
+}
+.bio__links div div{
+	min-width: 100%;
+	margin-top: 20%;
+}
+
+.bio__links p{
+	display: inline-block;
+	margin-left: 10% ;
+}
+#cont2 p{
+	float: right;
+}
+
+a:hover{
+	color: #36B061;
+	text-shadow: 0 0 15px #43D476;
+	transition: all	0.5s;
+}
+
